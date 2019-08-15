@@ -1,0 +1,33 @@
+{
+  "name": "sarsam/omnipay-evoca",
+  "type": "library",
+  "description": "Evoca bank gateway for Omnipay payment processing library",
+  "keywords": [
+    "gateway",
+    "merchant",
+    "omnipay",
+    "pay",
+    "payment",
+    "evoca",
+    "purchase"
+  ],
+  "homepage": "https://github.com/sarsam/omnipay-evoca",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Samvel Sargsyan",
+      "email": "sarsamvel1993@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Omnipay\\Evoca\\": "src/"
+    }
+  },
+  "require": {
+    "omnipay/common": "^3"
+  },
+  "require-dev": {
+    "omnipay/tests": "^3"
+  }
+}
