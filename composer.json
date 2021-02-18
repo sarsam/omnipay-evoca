@@ -1,5 +1,5 @@
 {
-  "name": "gauravjain028/omnipay-evoca",
+  "name": "sarsam/omnipay-evoca",
   "type": "library",
   "description": "Evoca bank gateway for Omnipay payment processing library",
   "keywords": [
@@ -11,12 +11,12 @@
     "evoca",
     "purchase"
   ],
-  "homepage": "https://github.com/gauravjain028/omnipay-evoca",
+  "homepage": "https://github.com/sarsam/omnipay-evoca",
   "license": "MIT",
   "authors": [
     {
-      "name": "Gaurav Jain",
-      "email": "gaurav@ucraft.com"
+      "name": "Samvel Sargsyan",
+      "email": "sarsamvel1993@gmail.com"
     }
   ],
   "autoload": {
