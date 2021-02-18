@@ -12,6 +12,12 @@ to your `composer.json` file:
 
 ```json
 {
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "git@github.com:gauravjain028/omnipay-evoca.git"
+        }
+    ],
     "require": {
         "sarsam/omnipay-evoca": "dev-master"
     }
@@ -21,10 +27,6 @@ to your `composer.json` file:
 And run composer to update your dependencies:
 
     composer update
-
-Or you can simply run
-
-    composer require sarsam/omnipay-evoca
 
 ## Basic Usage
 
