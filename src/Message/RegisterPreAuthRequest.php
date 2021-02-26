@@ -89,6 +89,7 @@ class RegisterPreAuthRequest extends AbstractRequest
 
         if ($this->getCurrency()) {
             $data['currency'] = $this->getCurrencyNumeric();
+            $data['currency'] = str_pad($data['currency'], 3, 0, STR_PAD_LEFT);
         }
 
         if ($this->getDescription()) {
